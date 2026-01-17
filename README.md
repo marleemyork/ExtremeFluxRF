@@ -8,6 +8,13 @@ Jarrett J Barber, and Kiona Ogle in review for Global Change Biology.</strong></
 <p><strong>Managed by Ecological Synthesis Lab at Northern Arizona University.</strong></p>
 <hr>
 
+<h2>Environmental and Climate Data</h2>
+<p>
+  Flux, temperature, precipitation, VPD, shortwave radiation, and geographic data were obtained from the AmeriFlux network
+  and available at https://ameriflux.lbl.gov/. All climate covariates and soil water content data were obtained from PRISM 
+  at https://prism.oregonstate.edu/.
+</p>
+
 <h2>Description of files and directories</h2>
 <pre>
 ExtremeFluxRF/
