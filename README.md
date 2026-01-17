@@ -10,7 +10,7 @@ Jarrett J Barber, and Kiona Ogle in review for Global Change Biology.</strong></
 
 <h2>Description of files and directories</h2>
 <pre>
-carbonflux/
+ExtremeFluxRF/
 ├── data/
   ├── classifications.csv   # Extreme and nominal classifications for each flux
   ├── PRISM_covariates.csv  # Site-level covariates assembled from PRISM
