@@ -17,12 +17,12 @@ ExtremeFluxRF/
 ├── randomforest/  
   ├── rf_run.R              # Script to run random forest classifications
   ├── rf_outputs/           # random forest output (X_Y.csv) for trendline X and flux Y
-    ├── transition_sink.csv
-    ├── transition_source.csv
-    ├── common_sink.csv
-    ├── common_source.csv
-    ├── moving_sink.csv
-    ├── moving_source.csv
+    ├── transition_sinkrf.R
+    ├── transition_sourcerf.R
+    ├── common_sinkrf.R
+    ├── common_sourcerf.R
+    ├── moving_sinkrf.R
+    ├── moving_sourcerf.R
 ├── shap/
   ├── shap_run.R            # Script to run SHAP analysis
   ├── shap_outputs/         # SHAP values (X_shap.csv) for all X-related variables
