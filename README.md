@@ -12,11 +12,13 @@ Jarrett J Barber, and Kiona Ogle in review for Global Change Biology.</strong></
 <pre>
 ExtremeFluxRF/
 ├── data/
-  ├── classifications.csv   # Extreme and nominal classifications for each flux
-  ├── PRISM_covariates.csv  # Site-level covariates assembled from PRISM
+  ├── transition_extremes.csv # Extreme classifications by transition trendline
+  ├── moving_extremes.csv     # Extreme classifications by moving trendline
+  ├── common_extremes.csv     # Extreme classifications by common trendline
+  ├── site_covariates.csv     # Site-level covariates assembled from PRISM
 ├── randomforest/  
-  ├── rf_run.R              # Script to run random forest classifications
-  ├── rf_outputs/           # random forest output (X_Y.csv) for trendline X and flux Y
+  ├── rf_run.R                # Script to run random forest classifications
+  ├── rf_outputs/             # random forest output (X_Y.csv) for trendline X and flux Y
     ├── transition_sinkrf.R
     ├── transition_sourcerf.R
     ├── common_sinkrf.R
@@ -24,10 +26,7 @@ ExtremeFluxRF/
     ├── moving_sinkrf.R
     ├── moving_sourcerf.R
 ├── shap/
-  ├── shap_run.R            # Script to run SHAP analysis
-  ├── shap_outputs/         # SHAP values (X_shap.csv) for all X-related variables
-    ├── TA_shap.csv         
-    ├── P_shap.csv        
-    ├── SW_shap.csv         
+  ├── shap_run.R              # Script to run SHAP analysis
+  ├── shap_outputs/           # SHAP values (X_shap.csv) for all X-related variables      
 └── README.md
 </pre>
