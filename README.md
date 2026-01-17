@@ -25,9 +25,9 @@ carbonflux/
     ├── moving_source.csv
 ├── shap/
   ├── shap_run.R            # Script to run SHAP analysis
-  ├── shap_outputs/
-    ├── TA_shap.csv         # SHAP values for all temperature variables
-    ├── P_shap.csv          # SHAP values for all precipitation variables
-    ├── SW_shap.csv         # SHAP values for all shortwave radiation variables
+  ├── shap_outputs/         # SHAP values (X_shap.csv) for all X-related variables
+    ├── TA_shap.csv         
+    ├── P_shap.csv        
+    ├── SW_shap.csv         
 └── README.md
 </pre>
