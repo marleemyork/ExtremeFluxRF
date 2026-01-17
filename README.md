@@ -19,9 +19,9 @@ Jarrett J Barber, and Kiona Ogle in review for Global Change Biology.</strong></
 <pre>
 ExtremeFluxRF/
 ├── data/
-  ├── transition_extremes.csv # Extreme classifications by transition trendline
-  ├── moving_extremes.csv     # Extreme classifications by moving trendline
-  ├── common_extremes.csv     # Extreme classifications by common trendline
+  ├── transition_extremes.csv # Transition seasonal trendline and resulting extreme classifications
+  ├── moving_extremes.csv     # Moving seasonal trendline and resulting extreme classifications
+  ├── common_extremes.csv     # Common seasonal trendline and resulting extreme classifications
   ├── site_covariates.csv     # Site-level covariates assembled from PRISM
 ├── randomforest/  
   ├── rf_run.R                # Script to run random forest classifications
