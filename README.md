@@ -9,7 +9,7 @@ Jarrett J Barber, and Kiona Ogle in review for Global Change Biology.</strong></
 <hr>
 
 <h2>Description of files and directories</h2>
-<p>
+<pre>
 carbonflux/
 ├── data/
   ├── classifications.csv   # Extreme and nominal classifications for each flux
@@ -30,4 +30,4 @@ carbonflux/
     ├── P_shap.csv          # SHAP values for all precipitation variables
     ├── SW_shap.csv         # SHAP values for all shortwave radiation variables
 └── README.md
-</p>
+</pre>
