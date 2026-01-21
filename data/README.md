@@ -18,7 +18,21 @@ Alongside this, site data for geographic and climate covariates are included in 
   <li><strong>seasonal_trend_Reco</strong>: 95th quantile spline regression that acts as a threshold for Extreme_Source definition</li>
 </ul>
 
-<h2>site_covariates Variables</h2>
+<h2>covariate_data</h2>
+<h2>site_covariates</h2>
+<ul>
+  <li><strong>Site</strong>: site name</li>
+  <li><strong>IGBP</strong>: land cover classification of terrestrial ecosystems</li>
+  <li><strong>climate_koeppen</strong>: Koppen climate classification including the following levels: Bsk (cold semi-arid), Dfc (subarctic), Csb (warm-summer Mediterranean), Dfb (warm-summer humid), Csa (hot-summer Mediterranean). This covariate was not used in th e random forest classifications, however, it was used for post-hoc analysis.</li> 
+  <li><strong>lat</strong>: site latitude</li>
+  <li><strong>lon</strong>: site longitude</li>  
+  <li><strong>elev_meters</strong>: site elevation</li>  
+  <li><strong>MAP</strong>: site mean annual precipitation calculated from PRISM data</li>  
+  <li><strong>MAT</strong>: site mean annual temperature calculated from PRISM data</li>    
+</ul>
+
+<h2>Covariate timeseries (X_data)</h2>
+<p>These data tables include the timeseries of each (X) of the 5 variables of interest: precipitation (P), temperature (TA) FINISH </p>
 <ul>
   <li><strong>Site</strong>: site name</li>
   <li><strong>IGBP</strong>: land cover classification of terrestrial ecosystems</li>
