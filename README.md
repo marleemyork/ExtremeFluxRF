@@ -16,6 +16,7 @@ Jarrett J Barber, and Kiona Ogle in review for Global Change Biology.</strong></
 </p>
 
 <h2>Description of files and directories</h2>
+<p>Individual READMEs are within each subfolder for further explanation.</p>
 <pre>
 ExtremeFluxRF/
 ├── data/
