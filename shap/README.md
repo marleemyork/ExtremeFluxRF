@@ -18,9 +18,9 @@ distribution of variable X. For example, P_sinkshap.csv includes SHAP values for
 (P, P_1, P_7, P_30, P_365, P_sd_7, P_sd_30, P_sd_365) on a sample of 500 observations selected so that there is a uniform distribution of precipitation values</p>
 <p>The important variables in each SHAP data table include:</p>
 <ul>
-  <li><strong>var:</strong>the variable that the SHAP value is associated with (e.g, P, P_1, P_7, etc., in Psinkshap.csv)</li>
-  <li><strong>value:</strong>the value of <strong>var</strong></li>
-  <li><strong>shap:</strong></li>the SHAP value calculated of <strong>var</strong> for this observation
+  <li><strong>var:</strong> the variable that the SHAP value is associated with (e.g, P, P_1, P_7, etc., in Psinkshap.csv)</li>
+  <li><strong>value:</strong> the value of <strong>var</strong></li>
+  <li><strong>shap:</strong> the SHAP value calculated of <strong>var</strong> for this observation</li>
   <li><strong>all variable names (e.g., P, TA, VPD, ...):</strong> all covariate values for each observation/li> 
 </ul>
 
