@@ -22,7 +22,7 @@ Alongside this, site data for geographic and climate covariates are included in 
 <ul>
   <li><strong>Site</strong>: site name</li>
   <li><strong>IGBP</strong>: land cover classification of terrestrial ecosystems</li>
-  <li><strong>climate_koeppen</strong>: Koppen climate classification including the following levels: Bsk (cold semi-arid), Dfc (subarctic), Csb (warm-summer Mediterranean), Dfb (warm-summer humid), Csa (hot-summer Mediterranean)</li> 
+  <li><strong>climate_koeppen</strong>: Koppen climate classification including the following levels: Bsk (cold semi-arid), Dfc (subarctic), Csb (warm-summer Mediterranean), Dfb (warm-summer humid), Csa (hot-summer Mediterranean). This covariate was not used in th e random forest classifications, however, it was used for post-hoc analysis.</li> 
   <li><strong>lat</strong>: site latitude</li>
   <li><strong>lon</strong>: site longitude</li>  
   <li><strong>elev_meters</strong>: site elevation</li>  
