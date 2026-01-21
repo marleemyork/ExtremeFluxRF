@@ -6,7 +6,7 @@ seasonal trends that the extremes are defined by. Each table (csv file) contains
 corresponding to each of the seasonal trend approaches: the transition, common, and moving quantile spline regressions. 
 Alongside this, site data for geographic and climate covariates are included in a separate table. </p>
 
-<h2>Variables</h2>
+<h2>X_extremes Variables</h2>
 <ul>
   <li><strong>Site</strong>: site name</li>
   <li><strong>Date</strong>: flux observation date</li>
@@ -15,4 +15,16 @@ Alongside this, site data for geographic and climate covariates are included in 
   <li><strong>seasonal_trend_GPP</strong>: 95th quantile spline regression that acts as threshold for Extreme_Sink definition</li>
   <li><strong>Extreme_Source</strong>: binary classification of extreme sources. Levels are: 0 (nominal, less than seasonal trendline),     1 (extreme, greater than seasonal trendline)</li>
   <li><strong>seasonal_trend_Reco</strong>: 95th quantile spline regression that acts as a threshold for Extreme_Source definition</li>
+</ul>
+
+<h2>site_covariates Variables</h2>
+<ul>
+  <li><strong>Site</strong>: site name</li>
+  <li><strong>IGBP</strong>: land cover classification of terrestrial ecosystems</li>
+  <li><strong>climate_koeppen</strong>: Koppen climate classification including the following levels: Bsk (cold semi-arid), Dfc (subarctic), Csb (warm-summer Mediterranean), Dfb (warm-summer humid), Csa (hot-summer Mediterranean)</li> 
+  <li><strong>lat</strong>: site latitude</li>
+  <li><strong>lon</strong>: site longitude</li>  
+  <li><strong>elev_meters</strong>: site elevation</li>  
+  <li><strong>MAP</strong>: site mean annual precipitation calculated from PRISM data</li>  
+  <li><strong>MAT</strong>: site mean annual temperature calculated from PRISM data</li>    
 </ul>
