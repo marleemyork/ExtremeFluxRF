@@ -7,6 +7,7 @@ corresponding to each of the seasonal trend approaches: the transition, common, 
 Alongside this, site data for geographic and climate covariates are included in a separate table. </p>
 
 <h2>X_extremes Variables</h2>
+<p>Three versions of this data table exist for each seasonal trendline approach (X): transition, common, and moving. Variables are the same aside from the seasonal trendline approach used to define extremes.</p>
 <ul>
   <li><strong>Site</strong>: site name</li>
   <li><strong>Date</strong>: flux observation date</li>
