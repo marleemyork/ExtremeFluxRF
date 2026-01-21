@@ -6,6 +6,9 @@ seasonal trends that the extremes are defined by. Each table (csv file) contains
 corresponding to each of the seasonal trend approaches: the transition, common, and moving quantile spline regressions. 
 Alongside this, site data for geographic and climate covariates are included in a separate table. </p>
 
+<h2>Random Forest Classification Script</h2>
+<p>This rf_run.R script is a reproducible pipeline for fitting and saving an unbalanced random forest classification model using the package randomForestSRC. For this analysis, we ran this pipeline to classify between extreme and nominal classifications for sinks and sources defined by the transition, common, and moving trendlines (6 model outputs).</p>
+
 <h2>Model Outputs</h2>
 <p>The subfolder rf_outputs includes outputs for all random forest classification models. This includes 6 random forest classifiers, including sink and source classifications using the transition, common, and moving approach. Analysis in this study was performed on the sink and source classification RF for the transition trendline approach. </p>
 <p>For each X_Yrf.rds where X = trendline approach (transition, moving, or common) and Y = flux type (sink or source), the following important output are including in the file:</p>
