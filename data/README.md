@@ -32,7 +32,8 @@ Alongside this, site data for geographic and climate covariates are included in 
 </ul>
 
 <h2>Covariate timeseries (X_data)</h2>
-<p>These data tables include the timeseries of each (X) of the 5 variables of interest: precipitation (P), temperature (TA) FINISH </p>
+<p>These data tables include the timeseries of each (X) of the 5 variables of interest: precipitation (P), temperature (TA), vapor pressure
+deficit (VPD)</p>
 <ul>
   <li><strong>Site</strong>: site name</li>
   <li><strong>IGBP</strong>: land cover classification of terrestrial ecosystems</li>
