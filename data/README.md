@@ -10,7 +10,7 @@ Alongside this, site data for geographic and climate covariates are included in 
 <p>Three versions of this data table exist for each seasonal trendline approach (X): transition, common, and moving. Variables are the same aside from the seasonal trendline approach used to define extremes.</p>
 <ul>
   <li><strong>Site</strong>: site name</li>
-  <li><strong>Date</strong>: flux observation date</li>
+  <li><strong>Date</strong>: date of flux observation</li>
   <li><strong>Extreme_Sink</strong>: binary classification of extreme sinks. Levels are: 0 (nominal, less than seasonal trendline),
   1 (extreme, greater than seasonal trendline)</li>
   <li><strong>seasonal_trend_GPP</strong>: 95th quantile spline regression that acts as threshold for Extreme_Sink definition</li>
@@ -22,7 +22,7 @@ Alongside this, site data for geographic and climate covariates are included in 
 <p><strong>site_covariates</strong></p>
 <ul>
   <li><strong>Site</strong>: site name</li>
-  <li><strong>IGBP</strong>: land cover classification of terrestrial ecosystems</li>
+  <li><strong>IGBP</strong>: date of flux observation</li>
   <li><strong>climate_koeppen</strong>: Koppen climate classification including the following levels: Bsk (cold semi-arid), Dfc (subarctic), Csb (warm-summer Mediterranean), Dfb (warm-summer humid), Csa (hot-summer Mediterranean). This covariate was not used in th e random forest classifications, however, it was used for post-hoc analysis.</li> 
   <li><strong>lat</strong>: site latitude</li>
   <li><strong>lon</strong>: site longitude</li>  
