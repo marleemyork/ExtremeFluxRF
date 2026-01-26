@@ -1,5 +1,6 @@
 <!-- README (HTML) -->
-<h1>This folder includes all scripts and outputs related to SHAP analysis included in this study.</h1>
+<h1>SHAP Analysis</h1>
+<p>This folder includes all scripts and outputs related to SHAP analysis included in this study.</p>
 
 <h2>SHAP Analysis Script</h2>
 <p>This shap_run.R script is a reproducible pipeline for performing SHAP analysis with fastshap (Greenwell, 2019) for a given sample of observations for selected variables of
