@@ -1,4 +1,5 @@
 <!-- README (HTML) -->
+<h1>Random Forest CLassification</h1>
 <p>This folder contains all materials to run the random forest classification, as well as the model outputs of our 6 models used in this study (found in rf_outputs).</p>
 
 <h2>Random Forest Classification Script</h2>
