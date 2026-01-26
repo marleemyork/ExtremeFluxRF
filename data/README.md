@@ -39,5 +39,5 @@ deficit (VPD), shortwave radiation (SW), soil water content (SWC). </p>
   <li><strong>Date</strong>: land cover classification of terrestrial ecosystems</li>
   <li><strong>X</strong>: The daily covariate value (X = TA, P, SW, VPD, or SWC depending on X_data.csv)</li> 
   <li><strong>X_Y</strong>: The lagged covariate calculated as the average value of X over Y days (Y=1,7,30,365)</li>
-  <li><strong>X_sd_Y</strong>: The lagged standard deviation of covariate X calculated over Y days (Y=1,7,30,365)</li>
+  <li><strong>X_sd_Y</strong>: The lagged standard deviation of covariate X calculated over Y days (Y=7,30,365)</li>
 </ul>
