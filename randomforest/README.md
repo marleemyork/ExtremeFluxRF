@@ -1,10 +1,7 @@
 <!-- README (HTML) -->
 
-<h1>Description of data tables</h1>
-<p>This folder contains the classification of extreme and nominal sinks and sources across all sites accompanied by the
-seasonal trends that the extremes are defined by. Each table (csv file) contains the seasonal trends and resulting extreme definitions
-corresponding to each of the seasonal trend approaches: the transition, common, and moving quantile spline regressions. 
-Alongside this, site data for geographic and climate covariates are included in a separate table. </p>
+<h1>Random Forest Outputs</h1>
+<p>This folder contains all materials to run the random forest classification, as well as the model outputs of our 6 models used in this study (found in rf_outputs).</p>
 
 <h2>Random Forest Classification Script</h2>
 <p>This rf_run.R script is a reproducible pipeline for fitting and saving an unbalanced random forest classification model using the package randomForestSRC. For this analysis, we ran this pipeline to classify between extreme and nominal classifications for sinks and sources defined by the transition, common, and moving trendlines (6 model outputs).</p>
