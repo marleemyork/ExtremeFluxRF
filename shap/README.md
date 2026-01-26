@@ -1,11 +1,4 @@
 <!-- README (HTML) -->
-
-<h1>Description of data tables</h1>
-<p>This folder contains the classification of extreme and nominal sinks and sources across all sites accompanied by the
-seasonal trends that the extremes are defined by. Each table (csv file) contains the seasonal trends and resulting extreme definitions
-corresponding to each of the seasonal trend approaches: the transition, common, and moving quantile spline regressions. 
-Alongside this, site data for geographic and climate covariates are included in a separate table. </p>
-
 <h2>SHAP Analysis Script</h2>
 <p>This shap_run.R script is a reproducible pipeline for performing SHAP analysis with fastshap (Greenwell, 2019) for a given sample of observations for selected variables of
   interest, on both extreme sink and source random forest classifications. 
